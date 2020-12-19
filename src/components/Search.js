@@ -24,7 +24,7 @@ const timeoutid  = setTimeout(() => {
   const fetchData = async (query)=>{
 
   
-  const res =   await axios.get('http://www.omdbapi.com/',{
+  const res =   await axios.get('https://www.omdbapi.com/',{
 
    params:{
      apiKey: process.env.REACT_APP_API_KEY,
@@ -85,7 +85,7 @@ const list = data.map((el)=>{
       setData('')
 
       setQuery('');
-      
+
 
       props.setSearch(true); 
 

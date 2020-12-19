@@ -20,7 +20,7 @@ useEffect(()=>{
 
  const fetchMovieData = async()=>{
          
-        const res =   await axios.get('http://www.omdbapi.com/',{
+        const res =   await axios.get('https://www.omdbapi.com/',{
 
             params:{
               apiKey: process.env.REACT_APP_API_KEY,
