@@ -1,0 +1,12 @@
+
+
+.icons{
+    transition: all .3s;
+}
+
+ .icons:hover{
+
+    background-color: whitesmoke;
+
+
+ }
